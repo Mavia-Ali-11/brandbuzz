@@ -1,0 +1,36 @@
+.input_field {
+    width: 100%;
+}
+
+.input_field > div {
+    border-radius: 6px;
+}
+
+.input_field > div::before,
+.input_field > div::after {
+    border: 0;
+    border-bottom: 0 !important;
+}
+
+.input_field label {
+    color: #666;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.input_field label.Mui-focused {
+    color: #FF402BFF;
+}
+
+.input_field input {
+    font-size: 14px;
+    padding-top: 30px;
+}
+
+.checkbox-inp path {
+    color: #9095A1FF;
+}
+
+.checkbox-inp.Mui-checked path {
+    color: #FF402BFF;
+}
